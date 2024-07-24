@@ -16,7 +16,7 @@ require 'PHPMailer/src/SMTP.php';
 
 
 // Get all pending pharmacy applications
-$con = mysqli_connect('localhost', 'root', '', 'pharmacy-system');
+$con = mysqli_connect('', '', '', '');
 $sql = "SELECT * FROM pharmacies WHERE is_approved = 0";
 $result = mysqli_query($con, $sql);
 
@@ -51,7 +51,7 @@ try {
     $mail->Port       = ;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('hsnattar2022@gmail.com', 'Admin');
+    $mail->setFrom('', 'Admin');
     $mail->addAddress($email, '');     //Add a recipient
     
 
