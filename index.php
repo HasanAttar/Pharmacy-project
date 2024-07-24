@@ -124,7 +124,7 @@ session_start();
 			<div class="parts container row" style="padding-bottom:30px; background:#F2F2F2;width: 101%;">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 text-center" style="margin-top:60px;padding-bottom:30px;">
-						<img src="images/39.jpg" alt="" />
+						<img src="images/39.jpg" alt="set" />
 
 					</div>
 					<div class="col-md-6 col-sm-12 text-center" style="margin-top:130px;padding-bottom:30px;">
