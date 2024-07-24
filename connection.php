@@ -1,10 +1,10 @@
 <?php
-$host = "localhost";
-$username = "root";
+$host = "";
+$username = "";
 $password = "";
-$database = "pharmacy-system";
+$database = "";
 
-$con=mysqli_connect("localhost","root","","pharmacy-system");
+$con=mysqli_connect($host,$username,$password,$database);
 if (mysqli_connect_errno())
 {echo "failed to connect to db: ".  mysqli_connect_error();}
 
